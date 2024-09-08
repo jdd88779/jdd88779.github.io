@@ -1,0 +1,183 @@
+/** Import google fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0; /** Remove default margin **/
+    background-color: #ccfdf37d;
+}
+
+nav {
+    background-color: #17abb8f8;
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex; /** Flex container **/
+    justify-content: space-around; /** Space horizontally **/
+}
+
+footer {
+    background-color: #17abb8f8;
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.footer-item {
+    margin: 0.5rem;
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.splash h1 { /** Target h1 elements within splash class **/
+    font-family: 'Roboto', serif;
+    font-size: 2rem;
+    color: #206262;
+}
+
+.splash img {
+    border: 0.25rem solid #206262;
+    border-radius: 0.5rem; /** Round border corners **/
+}
+
+.splash p {
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+}
+
+hr {
+    border-style: dashed;
+    border-width: 0.125rem;
+    border-color:#b0d6d2;
+}
+
+.background {
+    margin: 1rem;
+}
+
+.background h2 {
+    font-family: 'Roboto', serif;
+    font-size: 1.5rem;
+    color: #206262;
+}
+
+.background p {
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+}
+
+.background ul {
+    list-style-type: square;
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+}
+
+.background dl {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /** Set to 2 cols **/
+    column-gap: 10rem;
+    justify-content: space-evenly;
+}
+
+.background dl dt {
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+}
+
+.background dl dd {
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+}
+
+a {
+    font-family: 'Roboto', serif;
+    color: #000000;
+    text-decoration: none; /** Remove default underline **/
+    font-weight: bold;
+}
+
+a:hover { /** Change style of link on hover **/
+    color: #206262;  
+    font-size: 1.30rem; /** Make slightly bigger **/
+}
+
+.projects {
+    font-family: 'Roboto', serif;
+    margin: 1rem;
+}
+
+.projects h2 {
+    font-family: 'Roboto', serif;
+    font-size: 1.5rem;
+    color: #206262;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 1.25rem;
+}
+
+.card {
+    padding: 0.125rem;
+    background-color: #b0d6d22c;
+    border: 0.125rem dashed #2062626a;
+    box-shadow: 0 0.5rem 0.5rem 0 #3a393933;
+    /** Center/align content within a card **/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image {
+    width: 17.5rem;
+    height: 12.5rem;
+    border-radius: 0.5rem;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 1rem;
+}
+
+.form-item {
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+    width: 1.25rem;
+}
+
+.form-submit {
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.contact-details {
+    font-family: 'Roboto', serif;
+    margin: 1rem;
+}
+
+.contact-details h1 {
+    font-family: 'Roboto', serif;
+    font-size: 1.5rem;
+    color: #206262;
+}
+
+.contact-details p {
+    font-family: 'Roboto', serif;
+    font-size: 1.25rem;
+}
